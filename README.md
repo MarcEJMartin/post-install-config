@@ -6,6 +6,7 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
+
 <h2>Video Demonstration</h2>
 
 - ### [YouTube: How To Configure osTicket, post-installation](https://youtu.be/zNs5ULz1ZwU)
@@ -31,7 +32,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/8b5c1e75-f17e-4908-814d-19dccd623deb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  <img src="https://github.com/user-attachments/assets/75f34990-c9e7-4f3b-846d-a9a563fb21b4\" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After installing osTicket, administrators and support agents log in through the Admin Panel at http://localhost/osTicket/scp/login.php, which provides access to system settings and ticket management tools. This is where agents can configure roles, departments, SLAs, and respond to incoming tickets. End users, on the other hand, submit and track their support requests through the client portal at http://localhost/osTicket.
@@ -39,7 +42,7 @@ After installing osTicket, administrators and support agents log in through the 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/6211ec8e-ebfc-4325-9a3a-cb8b4e2f80e5"/>
 </p>
 <p>
 In the Admin Panel, go to Agents > Roles to create roles like “Supreme Admin” that define what actions agents can perform. Next, navigate to Agents > Departments to organize agents into groups such as “SysAdmins” or “Support,” which control ticket visibility. Then, under Agents > Teams, create teams like “Online Banking” by combining agents from different departments to collaborate on specific types of issues.
