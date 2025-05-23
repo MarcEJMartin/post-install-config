@@ -25,7 +25,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Log into the Admin Panel via http://localhost/osTicket/scp/login.php and direct users to the client portal at http://localhost/osTicket.
 - In the Admin Panel, configure Roles, Departments, and Teams to manage agent permissions, visibility, and cross-department collaboration.
 - Adjust User Settings to require registration before users can create tickets by unchecking the "unregistered users" option.
-- Add Agents under the Admin Panel (e.g., Jane in SysAdmins, John in Support) and create Users under the Agent Panel (e.g., Karen, Ken).
+- Add Agents under the Admin Panel (e.g., Spongebob in SysAdmins, Patrick in Support) and create Users under the Agent Panel (e.g., Karen, Ken).
 - Set up SLA plans and define Help Topics to organize ticket types and response expectations based on issue severity.
 
 <h2>Configuration Steps</h2>
@@ -58,7 +58,7 @@ To control who can submit support tickets, go to the Admin Panel, then Settings 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In the Admin Panel, go to Agents > Add New to create agent accounts like Jane (assigned to SysAdmins) and John (assigned to Support). Agents are staff members who manage and respond to tickets. To add end users (customers), switch to the Agent Panel, go to Users > Add New, and create profiles for users like Karen and Ken who will submit support requests.
+In the Admin Panel, go to Agents > Add New to create agent accounts like Spongebob (assigned to SysAdmins) and Patrick (assigned to Support). Agents are staff members who manage and respond to tickets. To add end users (customers), switch to the Agent Panel, go to Users > Add New, and create profiles for users like Karen and Ken who will submit support requests.
 </p>
 <br />
 
